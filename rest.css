@@ -1,0 +1,558 @@
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+    }
+    body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+    }
+header {
+    height: 1100px;
+    }
+.logo {
+    margin-top: 56px;
+    margin-left: 180px;
+    width: 198px;
+    height: 56px;
+    }
+.menu {
+    display: flex;
+    margin-top: -30px;
+    margin-left: 539px;
+    position: absolute;
+    color: black;
+    }
+ol {
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+    font-style: inherit;
+    font-family: inter; 
+    }
+li {
+    display: inline;
+    padding-right: 40px;
+    text-decoration-color: black;
+    }
+.reserve {
+    margin-top: -80px;
+    margin-left: 1165px;
+    height: 64px;
+    width: 167px;
+    background-color: #ed9121; 
+    border-radius: 5px;
+    border: none;
+    transform: skew(-5deg);
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25),0 10px 10px rgba(0, 0, 0, 0.22);
+    color: white;
+    text-decoration: none;
+    font-family: inter;
+    font-weight: 500;
+    font-style: none;
+    font-size: 20px;
+    }   
+.line1 {
+    width: 960px;
+    height: 960px;
+    left: -450px;
+    margin-top: -200px;
+    }
+.line2 {
+    margin-left: -30px;
+    margin-top: -900px;
+    transform: rotate(7deg);
+    }
+.line3 {
+    margin-left: -30px;
+    margin-top: -500px;
+}
+.circle {
+    margin-top: -270px;
+    margin-left: 119px;
+}
+.headline1 {
+    margin-top: 40px;
+    margin-left: 180px;
+    font-family: David Libre;
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 72px;
+    }
+.text1 {
+    margin-top: 70px;
+    margin-left: 180px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 26px;
+    color: #5C6574;
+}
+.menu1 {
+    margin-top: 60px;
+    margin-left: 180px;
+    height: 54px;
+    width: 120px;
+    background-color:black; 
+    border-radius: 5px;
+    border: none;
+    transform: skew(-5deg);
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25),0 10px 10px rgba(0, 0, 0, 0.22);
+    color: white;
+    text-decoration: none;
+    font-family: inter;
+    font-weight: 500;
+    font-style: none;
+    font-size: 20px;
+    }
+.reserve1 {
+    margin-top: 60px;
+    margin-left: 40px;
+    height: 54px;
+    width: 167px;
+    background-color: #ed9121; 
+    border-radius: 5px;
+    border: none;
+    transform: skew(-5deg);
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25),0 10px 10px rgba(0, 0, 0, 0.22);
+    color: white;
+    text-decoration: none;
+    font-family: inter;
+    font-weight: 500;
+    font-style: none;
+    font-size: 20px;
+}
+.dish2 {
+    margin-left: 650px;
+    margin-top: -100px;
+    position: relative;
+    width: 364px;
+    height: 364px;
+    }   
+.view {
+    margin-left: 816px;
+    margin-top: -700px;
+    width: 516px;
+    height: 712px;
+    }
+.group1 {
+    margin-left: 643px;
+    margin-top: -800px;
+    z-index: -1;
+    position: relative;
+    }
+.group2 {
+    margin-left: 1130px;
+    margin-top: -245px;
+    position: relative;
+    z-index: -1;
+    width: 315,27px;
+    height: 299,11px;
+    }
+.group3 {
+    margin-left: 1237px;
+    margin-top: 150px;
+    position: relative;
+    z-index: -1;
+    width: 252,57px;
+    height: 342,73px;
+    }
+.media {
+    display: inline;
+    margin-left: 180px;
+    margin-top: -40px;
+    height: 45px;
+    width: 45px;
+    }
+section {
+    background-color: #E8E8E8;
+    width: 1516px;
+    height: 1877px;
+    }
+.special-dishes {
+    position: absolute;
+    margin-top: 92px;
+    margin-left: 484px;
+    font-family: David Libre;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 65px;
+    text-align: center;
+    }
+.text2 {
+    position: absolute;
+    margin-top: 178px;
+    margin-left: 536px;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    color: #5C6574;
+    }
+.group2-2 {
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 190px;
+    width: 224.2px;
+    height: 212.7px;
+    }
+.group3-2 {
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 944px;
+    width: 180.6px;
+    height: 257.43px;
+    z-index: 1;
+    }
+.lumpia {
+    position: absolute;
+    margin-top: 400px;
+    margin-left: 179px;
+    width: 309.66px;
+    height: 442.9px;
+    }
+.fish {
+    position: absolute;
+    margin-top: 400px;
+    margin-left: 474px;
+    width: 265px;
+    height: 411px;
+    }
+.tofu {
+    position: absolute;
+    margin-top: 400px;
+    margin-left: 770px;
+    width: 265px;
+    height: 411px;
+    }
+.egg {
+    position: absolute;
+    margin-top: 400px;
+    margin-left: 1065px;
+    width: 265px;
+    height: 411px;
+    }
+.garlic {
+    position: absolute;
+    margin-top: 770px;
+    margin-left: 1107px;
+    width: 90.33px;
+    height: 81.85px;
+    }
+.garlic1 {
+    position: absolute;
+    margin-top: 740px;
+    margin-left: 1225.69px;
+    width: 118.51px;
+    height: 124px;
+    }
+.flower {
+    position: absolute;
+    margin-top: 900px;
+    margin-left: 648px;
+    width: 275.55px;
+    height: 148.18px;
+    }
+.dish3 {
+    position: absolute;
+    margin-top: -450px;
+    margin-left: 102px;
+    width: 719px;
+    height: 667px;
+    }
+.leaf1 {
+    margin-top: -200px;
+    margin-left: 120px;
+    z-index: 1;
+    position: relative;
+    }
+.leaf2 {
+    position: relative;
+    margin-top: 80px;
+    margin-left: 174px;
+    }
+.leaf3 {
+    position: absolute;
+    margin-top: -500px;
+    margin-left: 674px;
+    }
+.leaf4 {
+    position: absolute;
+    margin-top: -200px;
+    margin-left: 472px;
+    }
+.welcome {
+    position: absolute;
+    margin-top: 1120px;
+    margin-left: 867px;
+    font-family: David Libre;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 65px;
+    }
+.text3 {
+    position: absolute;
+    margin-top: 1280px;
+    margin-left: 867px;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    color: #5C6574;
+    }
+.menu2 {
+    margin-top: 1382px;
+    margin-left: 863px;
+    height: 54px;
+    width: 120px;
+    background-color:black; 
+    border-radius: 5px;
+    border: none;
+    transform: skew(-5deg);
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25),0 10px 10px rgba(0, 0, 0, 0.22);
+    color: white;
+    text-decoration: none;
+    font-family: inter;
+    font-weight: 500;
+    font-style: none;
+    font-size: 20px;
+    }
+.reserve2 {
+    position: absolute;
+    margin-top: 1382px;
+    margin-left: 30px;
+    height: 54px;
+    width: 167px;
+    background-color: #ed9121; 
+    border-radius: 5px;
+    border: none;
+    transform: skew(-5deg);
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25),0 10px 10px rgba(0, 0, 0, 0.22);
+    color: white;
+    text-decoration: none;
+    font-family: inter;
+    font-weight: 500;
+    font-style: none;
+    font-size: 20px;
+    }
+.group2-3 {
+    position: relative;
+    margin-top: -700px;
+    margin-left: 1000px;
+    }
+.garlic2 {
+    position: relative;
+    margin-top: 100px;
+    margin-left: 741px;
+    }
+.garlic3 {
+    position: relative;
+    margin-top: 5px;
+    margin-left: 871px;
+    }   
+.flower1 {
+    position: relative;
+    margin-top: -170px;
+    margin-left: 1162px;
+    } 
+main {
+    width: 700px;
+    height: 6188px;
+    }
+.chef {
+    position: relative;
+    margin-top: 200px;
+    margin-left: 183px;
+    font-family: David Libre;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 65px;
+    }
+.text4 {
+    position: relative;
+    margin-top: -60px;
+    margin-left: 188px;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    color: #5C6574;
+    }
+.garlic4 {
+    margin-top: -100px;
+    margin-left: 92px;
+    width: 400px;
+    height: 500px;
+    }
+.garlic5 {
+    margin-top: -350px;
+    margin-left: 17px;
+    }
+.list1 {
+    margin-top: 60px;
+    margin-left: 182px;
+    }
+.list2 {
+    margin-top: 40px;
+    margin-left: 182px;
+    }
+.list3 {
+    margin-top: 40px;
+    margin-left: 182px;
+    }
+.list4 {
+    margin-top: -250px;
+    margin-left: 489.5px;
+    }
+.list5 {
+    margin-top: 40px;
+    margin-left: 489.5px;
+    }
+.list6 {
+    margin-top: 40px;
+    margin-left: 489.5px;
+    }
+.chef2 {
+    margin-top: -600px;
+    margin-left: 822px;
+    }
+.menu3 {
+    margin-top: 50px;
+    margin-left: 239px;
+    height: 54px;
+    width: 120px;
+    background-color:black; 
+    border-radius: 5px;
+    border: none;
+    transform: skew(-5deg);
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25),0 10px 10px rgba(0, 0, 0, 0.22);
+    color: white;
+    text-decoration: none;
+    font-family: inter;
+    font-weight: 500;
+    font-style: none;
+    font-size: 20px;
+    }
+.reserve3 {
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 20px;
+    height: 54px;
+    width: 167px;
+    background-color: #ed9121; 
+    border-radius: 5px;
+    border: none;
+    transform: skew(-5deg);
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25),0 10px 10px rgba(0, 0, 0, 0.22);
+    color: white;
+    text-decoration: none;
+    font-family: inter;
+    font-weight: 500;
+    font-style: none;
+    font-size: 20px;
+    }
+.reviews {
+    position: relative;
+    margin-top: -5200px;
+    width: 1512px;
+    height: 1289px;
+    background-color: #E8E8E8;
+    }
+.customers {
+    position: absolute;
+    margin-top: 114px;
+    margin-left: 403px;
+    font-family: David Libre;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 65px;
+    }
+.frying-pan {
+    position: absolute;
+    margin-top: 94px;
+    margin-left: 1px;
+    }
+.text5 {
+    position: absolute;
+    margin-top: 197px;
+    margin-left: 537px;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    color: #5C6574;
+    text-align: center;
+    }
+.reviews1 {
+    position: absolute;
+    margin-top: 321px;
+    margin-left: 410px;
+    }
+.reviews2 {
+    position: absolute;
+    margin-top: 321px;
+    margin-left: 1152px;
+    }
+.scroll {
+    position: absolute;
+    margin-top: 884px;
+    margin-left: 680px;
+    }
+.form-image {
+    position: absolute;
+    margin-top: 1037px;
+    margin-left: 183px;
+    }
+.form-text {
+    position: absolute;
+    margin-top: 1133px;
+    margin-left: 430px;
+    font-family: David Libre;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 58px;
+    text-align: center;
+    color: #FFFFFF;
+    }
+.form-row {
+    position: absolute;
+    margin-top: 1300px;
+    margin-left: 430px;
+    }
+.field {
+    max-width: 700px;
+    width: 700px;
+    height: 58px;
+    border-radius: 10px;
+    border: none;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    color: #5C6574;
+    }
+.subscribe {
+    position: absolute;
+    margin-top: 1305px;
+    margin-left: 950px;
+    height: 50px;
+    width: 167px;
+    background-color: #ed9121; 
+    border-radius: 10px;
+    border: none;
+    color: white;
+    text-decoration: none;
+    font-family: inter;
+    font-weight: 500;
+    font-style: none;
+    font-size: 20px;
+    }
+.menu-group {
+    margin-top: -750px;
+    margin-left: 181px;
+    }
+.frying-pan1 {
+    margin-top: 300px;
+    margin-left: 319px;
+}
